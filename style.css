@@ -10,7 +10,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-image: url('./assets/liquid-cheese.png');
-  background-size: auto;
+  background-size: 100%;
   background-color: #330055;
   background-position: center;
   background-repeat: repeat;
