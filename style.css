@@ -194,6 +194,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .section__text__p2 {
@@ -381,6 +382,27 @@ section {
   column-gap: 2rem; /* Adjust the gap between columns as needed */
 }
 
+.custom-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.custom-list li::before {
+  content: '\2022'; /* Unicode for a black dot (•) */
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; /* Adjust spacing between the dot and the text */
+}
+
+.custom-list li {
+  margin-bottom: 5px; /* Adjust spacing between list items */
+}
+
+.black-line {
+  border: 1px solid black; /* Add a black horizontal line */
+  margin: 20px 0; /* Adjust the margin for spacing */
+}
 
 /* EXPERIENCE SECTION */
 
